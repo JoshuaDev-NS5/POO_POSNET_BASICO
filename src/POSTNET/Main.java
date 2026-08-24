@@ -58,6 +58,8 @@ public class Main {
                     }
                     break;
                 case 0:
+                    Salir= true;
+                    System.out.println("Servicio terminado");
                     break;
 
             }
