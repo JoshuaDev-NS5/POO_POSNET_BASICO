@@ -51,6 +51,11 @@ public class Main {
 
                    break;
                 case 2:
+                    System.out.println("Historial de Tickes");
+                    for(Ticket T: Tikecs){
+                        System.out.println("Factura:");
+                        System.out.println(T.toString());
+                    }
                     break;
                 case 0:
                     break;
