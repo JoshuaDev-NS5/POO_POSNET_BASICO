@@ -34,4 +34,13 @@ public class Ticket {
     public void SetMontoPorCuota(Double newMontoPorCuota){
         this.MontoPorCuota=newMontoPorCuota;
     }
+
+    //Sobreescribimos el metodo toString para imprimir la clase
+    @Override
+    public String toString(){
+        return "Titular de la tajeta: " + this.NombreApellido + "\n"
+                +"Monto total: " + this.MontoTotal + "\n"
+                +"Monto por cuota: " + this.MontoPorCuota;
+
+    }
 }
